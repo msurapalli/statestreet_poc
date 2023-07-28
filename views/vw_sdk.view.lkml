@@ -65,7 +65,7 @@ view: vw_sdk {
 
   dimension_group: dtofsgntr {
     type: time
-    timeframes: [raw, date, week, month, quarter, year,]
+    timeframes: [raw, date, week, month, quarter, year, second,microsecond,millisecond,minute,hour]
     convert_tz: no
     datatype: date
     sql: ${TABLE}."DTOFSGNTR" ;;
